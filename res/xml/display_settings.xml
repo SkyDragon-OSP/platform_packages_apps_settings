@@ -33,12 +33,25 @@
                 android:summary="@string/auto_brightness_summary"
                 android:persistent="false" />
 
+		<PreferenceCategory
+				android:key="status_bar_general_category"
+				android:title="@string/status_bar_screen_title" >
+        <SwitchPreference
+				android:key="status_bar_native_battery_percentage"
+				android:summary="@string/status_bar_native_battery_percentage_summary"
+				android:title="@string/status_bar_native_battery_percentage_title" />
 		<PreferenceScreen
 				android:fragment="com.android.settings.simpleaosp.StatusBarClockStyle"
 				android:key="clock_style_pref"
 				android:summary="@string/status_bar_clock_summary"
 				android:title="@string/status_bar_clock" />
-
+		<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+				android:key="status_bar_show_weather"
+				android:title="@string/status_bar_show_weather_title"
+				android:summary="@string/status_bar_show_weather_summary"
+				android:defaultValue="true" />
+		</PreferenceCategory>
+        
         <PreferenceScreen
                 android:key="wallpaper"
                 android:title="@string/wallpaper_settings_title"
