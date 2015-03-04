@@ -215,7 +215,55 @@ public class AppOpsState {
     public static final OpsTemplate[] ALL_TEMPLATES = new OpsTemplate[] {
             LOCATION_TEMPLATE, PERSONAL_TEMPLATE, MESSAGING_TEMPLATE,
             MEDIA_TEMPLATE, DEVICE_TEMPLATE, RUN_IN_BACKGROUND_TEMPLATE
-    };
+            }, new boolean[] {
+                    true, /* OP_COARSE_LOCATION */
+                    true, /* OP_FINE_LOCATION */
+                    false, /* OP_GPS */
+                    false, /* OP_WIFI_SCAN */
+                    false, /* OP_NEIGHBORING_CELLS */
+                    false, /* OP_MONITOR_LOCATION */
+                    false, /* OP_MONITOR_HIGH_POWER_LOCATION */
+                    true, /* OP_READ_CONTACTS */
+                    true, /* OP_WRITE_CONTACTS */
+                    true, /* OP_READ_CALL_LOG */
+                    true, /* OP_WRITE_CALL_LOG */
+                    true, /* OP_READ_CALENDAR */
+                    true, /* OP_WRITE_CALENDAR */
+                    false, /* OP_READ_CLIPBOARD */
+                    false, /* OP_WRITE_CLIPBOARD */
+                    true, /* OP_READ_SMS */
+                    true, /* OP_RECEIVE_SMS */
+                    true, /* OP_RECEIVE_EMERGECY_SMS */
+                    true, /* OP_RECEIVE_MMS */
+                    true, /* OP_RECEIVE_WAP_PUSH */
+                    true, /* OP_WRITE_SMS */
+                    true, /* OP_SEND_SMS */
+                    true, /* OP_READ_ICC_SMS */
+                    true, /* OP_WRITE_ICC_SMS */
+                    false, /* OP_VIBRATE */
+                    true, /* OP_CAMERA */
+                    true, /* OP_RECORD_AUDIO */
+                    false, /* OP_PLAY_AUDIO */
+                    false, /* OP_TAKE_MEDIA_BUTTONS */
+                    false, /* OP_TAKE_AUDIO_FOCUS */
+                    false, /* OP_AUDIO_MASTER_VOLUME */
+                    false, /* OP_AUDIO_VOICE_VOLUME */
+                    false, /* OP_AUDIO_RING_VOLUME */
+                    false, /* OP_AUDIO_MEDIA_VOLUME */
+                    false, /* OP_AUDIO_ALARM_VOLUME */
+                    false, /* OP_AUDIO_NOTIFICATION_VOLUME */
+                    false, /* OP_AUDIO_BLUETOOTH_VOLUME */
+                    false, /* OP_MUTE_MICROPHONE */
+                    false, /* OP_POST_NOTIFICATION */
+                    true, /* OP_ACCESS_NOTIFICATIONS */
+                    true, /* OP_CALL_PHONE */
+                    true, /* OP_WRITE_SETTINGS */
+                    true, /* OP_SYSTEM_ALERT_WINDOW */
+                    true, /* OP_WAKE_LOCK */
+                    false, /* OP_PROJECT_MEDIA */
+                    false, /* OP_ACTIVATE_VPN */
+            }
+    );
 
     /**
      * This class holds the per-item data in our Loader.
