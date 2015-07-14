@@ -1996,6 +1996,12 @@
     <!-- Main Settings screen, setting option summary to go into search settings -->
     <string name="search_settings_summary">Manage search settings and history</string>
 
+	<!-- Status bar -->
+    <string name="status_bar_screen_title">Status bar</string>
+    <!-- Statusbar native battery percent -->
+    <string name="status_bar_native_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_native_battery_percentage_summary">Show percentage inside icon</string>
+
     <!-- Display settings --><skip/>
     <!-- Sound & display settings screen, section header for settings related to display -->
     <string name="display_settings">Display</string>
