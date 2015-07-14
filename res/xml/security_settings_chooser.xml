@@ -20,7 +20,7 @@
 	<PreferenceScreen
         android:id="@+id/app_ops_settings"
         android:title="@string/app_ops_settings"
-        android:fragment="com.android.settings.applications.AppOpsSummary" />
+        android:fragment="com.android.settings.applications.AppOpsCategory" />
         
     <PreferenceCategory
         android:key="security_category"
