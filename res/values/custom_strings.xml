@@ -107,6 +107,9 @@
     <string name="led_notification_text">LED light enabled by settings</string>
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
+	<!-- Status bar-->
+    <string name="status_bar_title">Status bar</string>
+    
 	<!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Clock &amp; date style</string>
     <string name="status_bar_clock">Clock &amp; date</string>
