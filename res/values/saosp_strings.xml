@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SimpleAOSP build date-->
+    <string name="build_date">SimpleAOSP-N build date</string>
+    <string name="build_date_default">2014-01-01-0000</string> 
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
+   <!--- Volume key cursor control -->
+   <string name="volume_rocker_screen_title">Volume rocker</string>
+   <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+   <string name="volume_key_cursor_control_off">Disabled</string>
+   <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+   <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+   <!-- Wakeup options -->
+   <string name="display_category_wakeup_options_title">Wakeup options</string>
+   <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+   <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+
+    <!-- Wakeup options -->
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device</string>
+
+    <!-- Advanced sound category -->
+    <string name="advanced_sound_category">Advanced sounds</string>
+
+    <!-- Volume rocker music seek options -->
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+    <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
+
+    <!-- Saosp Settings menus -->
+    <string name="simpleaosp_settings_title">Build Tweaks</string>
+    <string name="keywords_simpleaosp">simpleaosp</string>
+    <!-- Lock screen settings -->
+    <string name="lock_screen_title">Lock screen</string>
+    <!-- Status bar-->
+    <string name="status_bar_title">Status bar</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">Clock &amp; date style</string>
+    <string name="status_bar_clock">Clock &amp; date</string>
+    <string name="status_bar_clock_summary">Change various clock &amp; date options</string> 
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_hidden">Hidden</string>
+
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+
+</resources>

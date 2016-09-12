@@ -111,7 +111,9 @@
     <string name="status_bar_title">Status bar</string>
     
 	<!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Clock settings</string>
+    <string name="status_bar_clock_title">Clock &amp; date style</string>
+    <string name="status_bar_clock">Clock &amp; date</string>
+    <string name="status_bar_clock_summary">Change various clock &amp; date options</string> 
     <string name="status_bar_clock_style_title">Clock style</string>
     <string name="status_bar_clock_style_right">Right</string>
     <string name="status_bar_clock_style_left">Left</string>
@@ -135,7 +137,7 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>  
+    <string name="clock_date_string_edittext_summary">Enter string</string>
 
 	<!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
