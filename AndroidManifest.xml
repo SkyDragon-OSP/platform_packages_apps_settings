@@ -1227,8 +1227,7 @@
         <activity android:name="Settings$AppOpsSummaryActivity"
                 android:label="@string/app_ops_settings"
                 android:taskAffinity="com.android.settings"
-                android:enabled="true"
-		android:excludeFromRecents="true" >
+                android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.settings.APP_OPS_SETTINGS" />
@@ -1240,6 +1239,15 @@
                 android:value="com.android.settings.applications.AppOpsSummary" />
         </activity>
 
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias android:name=".applications.AppOpsSummary"
+                  android:label="@string/app_ops_settings"
+                  android:exported="true"
+                  android:targetActivity="Settings$AppOpsSummaryActivity">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.AppOpsSummary" />
+        </activity-alias>
+        
         <activity android:name="Settings$BackgroundCheckSummaryActivity"
                 android:label="@string/background_check_title"
                 android:taskAffinity=""
