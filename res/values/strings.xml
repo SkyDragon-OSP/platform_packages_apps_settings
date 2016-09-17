@@ -2196,7 +2196,7 @@
     <!-- Sound & display settings screen, setting option summary to change screen timeout -->
     <string name="screen_timeout_summary">After <xliff:g id="timeout_description">%1$s</xliff:g> of inactivity</string>
     <!-- Wallpaper settings title [CHAR LIMIT=30] -->
-    <string name="wallpaper_settings_title">Wallpaper</string>
+    <string name="wallpaper_settings_title">Set Wallpaper</string>
     <!-- Wallpaper suggestion title [CHAR LIMIT=30] -->
     <string name="wallpaper_suggestion_title">Change wallpaper</string>
     <!-- Wallpaper suggestion title [CHAR LIMIT=60] -->
