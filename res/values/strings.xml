@@ -2368,7 +2368,10 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="build_number">Build Data</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="selinux_status">SELinux Status</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
