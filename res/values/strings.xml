@@ -2333,7 +2333,7 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build #</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_number">Build Data</string>
+    <string name="build_date">Build Date</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="selinux_status">SELinux Status</string>
