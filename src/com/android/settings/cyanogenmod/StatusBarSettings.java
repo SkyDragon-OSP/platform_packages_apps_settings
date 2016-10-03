@@ -49,7 +49,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.SAOSP_TWEAKS;
+        return MetricsEvent.AOSP_TWEAKS;
     }
 }
 
