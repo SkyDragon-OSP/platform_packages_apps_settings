@@ -143,6 +143,10 @@
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double-tap on the status bar or top third and bottom shortcut area of the lock screen to turn off the display</string>
 
+	<!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
 	<!-- Dashboard suggestions -->
     <string name="dashboard_category">Dashboard options</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
