@@ -64,6 +64,12 @@
                 android:key="camera_double_tap_power_gesture"
                 android:title="@string/camera_double_tap_power_gesture_title"
                 android:summary="@string/camera_double_tap_power_gesture_desc" />
+                
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_anywhere"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary"
+            android:defaultValue="false" />
 
         <PreferenceScreen
                 android:key="screensaver"
