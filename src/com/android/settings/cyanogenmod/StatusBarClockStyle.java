@@ -110,9 +110,9 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
         parseClockDateFormats();
     }
 
-     @Override
+    @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.AOSP_TWEAKS;
+        return MetricsEvent.SAOSP_TWEAKS;
     }
 
      @Override
