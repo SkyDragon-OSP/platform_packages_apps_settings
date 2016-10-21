@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The Pure Nexus Project
+<!-- Copyright (C) 2016 The SkyDragon Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+	<string name="ok">OK</string>
+    <string name="advanced">Advanced</string>
+    <string name="profiles_add">Add...</string>
+    <string name="profile_choose_app">Choose app</string>
+    
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
@@ -27,20 +33,17 @@
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->
-    <string name="nexus_version">PureNexus version</string>
+    <string name="nexus_version">SkyDragon Version</string>
     <string name="nexus_version_default">Unknown</string>
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version">Vendor Version</string>
     <string name="vendor_version_default">Unknown</string>
     <!-- Build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Build Date</string>
     <string name="build_date_default">2014-01-01-0000</string>
     <!-- Model Name -->
-    <string name="model_name">Model name</string>
+    <string name="model_name">Model Name</string>
    <!-- Phone info shortcut -->
-    <string name="device_info_title">Phone info</string>
-
-<!-- Sound & Notification Settings -->
-    <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+    <string name="device_info_title">Phone Info</string>
 </resources>
+
